@@ -1,0 +1,13 @@
+prefix=C:/Users/simranpal.kohli/AAAAAfiniti/Personal/Self_Study/AI/Krish_Naik/LLM/Projects/LlamaCode/venv/Library
+exec_prefix=C:/Users/simranpal.kohli/AAAAAfiniti/Personal/Self_Study/AI/Krish_Naik/LLM/Projects/LlamaCode/venv/Library
+libdir=C:/Users/simranpal.kohli/AAAAAfiniti/Personal/Self_Study/AI/Krish_Naik/LLM/Projects/LlamaCode/venv/Library/lib
+sharedlibdir=C:/Users/simranpal.kohli/AAAAAfiniti/Personal/Self_Study/AI/Krish_Naik/LLM/Projects/LlamaCode/venv/Library/lib
+includedir=C:/Users/simranpal.kohli/AAAAAfiniti/Personal/Self_Study/AI/Krish_Naik/LLM/Projects/LlamaCode/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
